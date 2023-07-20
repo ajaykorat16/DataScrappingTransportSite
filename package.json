@@ -1,0 +1,21 @@
+{
+  "name": "data-scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "csv-parser": "^3.0.0",
+    "csv-stringify": "^6.4.0",
+    "csv-writer": "^1.6.0",
+    "dayjs": "^1.11.9",
+    "json2csv": "^6.0.0-alpha.2",
+    "puppeteer": "^20.8.0"
+  }
+}
